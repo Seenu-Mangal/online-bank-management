@@ -16,17 +16,16 @@ CREATE TABLE IF NOT EXISTS customers (
 
 INSERT INTO customers (CUSTOMER_NAME, EMAIL, MOBILE, CURRENT_BALANCE) 
 VALUES
-("Seenu  Mangal", "seenu@gmail.com", "9857446574", 10000),
-("Deeksha Garg", "deeksha@gmail.com", "9877564387", 50000),
-("Priya Sharma", "priya@gmail.com", "7889450092", 20500),
-("Sakshi  Bhati", "sakshi@gmail.com", "8777564923", 55500),
-("Reshi Garg", "reshi@gmail.com", "9433789234", 78000),
-("Ashara Jain", "ashara@gmail.com", "9988778898", 99000),
-("Riya Kumari", "riya@gmail.com", "6689450092", 75500),
-("Mohit Mangal", "mohit@gmail.com", "7887630092", 20590),
-("Kratika Bansal", "kratika@gmail.com", "7889476654", 99999),
-("Sakshi Bansal", "sakshii@gmail.com", "7112450092", 100500); 
-
+("SHRUTI AGARWAL", "shruti@gmail.com", "9857446574", 10000),
+("DISHA GUPTA", "disha@gmail.com", "9877564387", 50000),
+("PRIYANSHI SHARMA", "priyanshi@gmail.com", "7889450092", 20500),
+("AKSHIT BHATNAGAR", "akshit111@gmail.com", "8777564923", 55500),
+("RITVIK SHARMA", "ritvik@gmail.com", "9433789234", 78000),
+("AKIRA JAIN", "akira101@gmail.com", "9988778898", 99000),
+("RIYA DHANEJA", "riya@gmail.com", "6689450092", 75500),
+("RISHI SHARMA", "rishi001@gmail.com", "7887630092", 20590),
+("KRITIK KOTHARI", "kritickk@gmail.com", "7889476654", 99999),
+("JYOTSANA SAINI", "jyotsaini@gmail.com", "7112450092", 100500); 
 CREATE TABLE IF NOT EXISTS transaction(
     SENDER varchar(50),
     RECEIVER varchar(50),
